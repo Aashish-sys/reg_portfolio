@@ -28,9 +28,45 @@
   .window {
     padding: 1rem 2rem 1rem;
   }
-  .cards {
+  .card1 {
     background-color: antiquewhite;
     width: 10rem;
     height: 10rem;
+    padding: 3.8rem 3.85rem 4rem;
+    border-radius: 20px;
+  }
+  .card2 {
+    background-color: antiquewhite;
+    width: 10rem;
+    height: 10rem;
+    padding: 3.8rem 3.9rem 4rem;
+    border-radius: 20px;
+  }
+  .card3 {
+    background-color: antiquewhite;
+    width: 10rem;
+    height: 10rem;
+    padding: 4rem 3.85rem 4rem;
+    border-radius: 20px;
+  }
+  .card4 {
+    background-color: antiquewhite;
+    width: 10rem;
+    height: 10rem;
+    padding: 4rem 3.85rem 3rem;
+    border-radius: 20px;
+  }
+
+  .btn1 {
+    scale: 2.2;
+  }
+  .btn2 {
+    scale: 2.5;
+  }
+  .btn3 {
+    scale: 2.5;
+  }
+  .btn4 {
+    scale: 2.5;
   }
 }

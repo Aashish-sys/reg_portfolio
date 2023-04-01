@@ -1,4 +1,8 @@
 import {AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import { SiPexels  } from 'react-icons/si';
+import {FaGithubSquare} from 'react-icons/fa'
+import {BsAndroid2} from 'react-icons/bs'
+import {RiInstagramFill} from 'react-icons/ri'
 import React, { useState } from 'react';
 import Link from 'next/link';
 
@@ -16,9 +20,9 @@ const Navbar = () => {
       </h1>
       <button onClick={() => setNav(!nav)} className="block x-lg:hidden z-100">
     {nav ? 
-        <AiOutlineClose size={25}style={{color: '${textColor}'}} />
+        <AiOutlineClose size={25}/>
         :
-        <AiOutlineMenu size={25} style={{color: '${textColor}'}} /> 
+        <AiOutlineMenu size={25}/> 
     }
     
 </button>
@@ -27,21 +31,29 @@ const Navbar = () => {
     <div className={nav ? ' absolute top-20 right-0 left-0 bottom-0 flex justify-center items-center w-full h-80% bg-cream text-center scale-100 duration-300' :
                  'absolute top-20 right-0 left-0 bottom-0 flex justify-center items-center w-full h-80% bg-cream text-center scale-0 duration-300'}>
     <ul>
-      <div className='flex'>
-                <div className='p-10 m-4 cards text-4xl hover:scale-110 duration-300 float-right'>
-                    <Link href='/'>Home</Link>
+      <div className='flex btn-bg'>
+                <div className='m-4 card1 text-4xl hover:scale-110 duration-300 float-right'>
+                    <Link href='/'>
+                      <SiPexels className='btn1'></SiPexels>
+                    </Link>
                 </div>
-                <div className='p-10 m-4 cards text-4xl hover:scale-110 duration-300'>
-                    <Link href=''>Gallery</Link>
+                <div className='m-4 card2 text-4xl hover:scale-110 duration-300'>
+                    <Link href=''>
+                      <FaGithubSquare className='btn2'></FaGithubSquare>
+                    </Link>
                 </div>
       </div>
 
       <div className='flex'>
-                <div className='p-10 m-4 w- cards text-4xl hover:scale-110 duration-300'>
-                    <Link href=''>Work</Link>
+                <div className='m-4 card3 text-4xl hover:scale-110 duration-300'>
+                    <Link href=''>
+                      <BsAndroid2 className='btn3'></BsAndroid2>
+                    </Link>
                 </div>
-                <div className='p-10 m-4 cards text-4xl hover:scale-110 duration-300'>
-                    <Link href=''>Contact</Link>
+                <div className='m-4 card4 text-4xl hover:scale-110 duration-300'>
+                    <Link href=''>
+                      <RiInstagramFill className='btn4'></RiInstagramFill>
+                    </Link>
                 </div>
       </div>
             </ul>
