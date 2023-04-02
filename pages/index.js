@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Navbar from "./components/Navbar.jsx";
 import Header from "./components/Header.jsx";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <main>
         <Navbar />
         <Header />
+        <Footer />
       </main>
     </>
   );

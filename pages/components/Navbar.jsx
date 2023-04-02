@@ -27,8 +27,8 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "fixed  top-20 right-0 left-0 bottom-0 flex justify-center items-center w-full h-80% bg-cream text-center scale-100 duration-300"
-            : "fixed  top-20 right-0 left-0 bottom-0 flex justify-center items-center w-full h-80% bg-cream text-center scale-0 duration-300"
+            ? "fixed  top-20 right-0 left-0 bottom-0 flex justify-center items-center w-full h-80% bg-cream text-center ease-in duration-300"
+            : "fixed  top-20 right-0 left-[35%] bottom-[100%] flex justify-center items-center w-full h-80% bg-cream text-center scale-0 duration-300"
         }
       >
         <ul>
