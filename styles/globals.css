@@ -139,6 +139,15 @@
     }
   }
 
+  @keyframes top-down1 {
+    0% {
+      margin-top: -20rem;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+
   @keyframes appear {
     0% {
       opacity: 0%;
@@ -157,6 +166,7 @@
     animation: moveRobot 50s ease-in-out infinite;
     top: 18%;
     left: 45%;
+    animation: top-down1 0.7s;
   }
 
   .triangle {
@@ -170,6 +180,7 @@
     animation: moveRobot 50s ease-in-out infinite;
     top: 18%;
     left: 55%;
+    animation: top-down1 1.5s;
   }
   
   @keyframes moveRobot {
