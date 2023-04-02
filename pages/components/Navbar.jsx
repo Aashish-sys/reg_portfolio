@@ -53,7 +53,10 @@ const Navbar = () => {
             </div>
             <div className="m-4 card4 text-4xl hover:scale-110 duration-300">
               <Link href="https://www.instagram.com/chethazz/">
-                <RiInstagramFill color="white" className="btn4"></RiInstagramFill>
+                <RiInstagramFill
+                  color="white"
+                  className="btn4"
+                ></RiInstagramFill>
               </Link>
             </div>
           </div>

@@ -8,7 +8,8 @@ const Header = () => {
       <div className="max-w-[1100px] justify-between m-auto window">
         <div>
           <h className="text-8xl leading-normal">
-            Hi <br /> I'm Chethas
+            Hi <br />
+            <h className="text-8xl leading-normal"> I'm Chethas</h>
           </h>
           <h3 className="text-xl mt-10">
             I'm a web designer, Android enthusiast and a custom ROM developer

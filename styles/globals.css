@@ -116,8 +116,7 @@
   }
 
   h {
-    animation-name: appear;
-    animation-duration: 2s;
+    animation: left-right 1s;
     font-weight: 500;
   }
   h2,
@@ -142,6 +141,15 @@
   @keyframes top-down1 {
     0% {
       margin-top: -20rem;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+
+  @keyframes left-right {
+    0% {
+      margin-left: -10rem;
     }
     100% {
       margin-top: 0;
@@ -182,7 +190,7 @@
     left: 55%;
     animation: top-down1 1.5s;
   }
-  
+
   @keyframes moveRobot {
     0% {
       transform: translate(0, 0);
@@ -200,5 +208,4 @@
       transform: translate(0, -20px);
     }
   }
-  
 }
