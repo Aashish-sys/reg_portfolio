@@ -35,12 +35,12 @@ const Navbar = () => {
           <div className="flex btn-bg">
             <div className="m-4 card1 text-4xl hover:scale-110 duration-300 float-right">
               <Link href="https://www.pexels.com/@regulus-photography-100262152/">
-                <SiPexels className="btn1"></SiPexels>
+                <SiPexels color="white" className="btn1"></SiPexels>
               </Link>
             </div>
             <div className="m-4 card2 text-4xl hover:scale-110 duration-300">
               <Link href="https://github.com/chethazz">
-                <FaGithubSquare className="btn2"></FaGithubSquare>
+                <FaGithubSquare color="white" className="btn2"></FaGithubSquare>
               </Link>
             </div>
           </div>
@@ -48,12 +48,12 @@ const Navbar = () => {
           <div className="flex">
             <div className="m-4 card3 text-4xl hover:scale-110 duration-300">
               <Link href="https://pixelos.net/download/violet">
-                <BsAndroid2 className="btn3"></BsAndroid2>
+                <BsAndroid2 color="white" className="btn3"></BsAndroid2>
               </Link>
             </div>
             <div className="m-4 card4 text-4xl hover:scale-110 duration-300">
               <Link href="https://www.instagram.com/chethazz/">
-                <RiInstagramFill className="btn4"></RiInstagramFill>
+                <RiInstagramFill color="white" className="btn4"></RiInstagramFill>
               </Link>
             </div>
           </div>

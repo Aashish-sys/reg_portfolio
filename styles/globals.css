@@ -29,8 +29,8 @@
     padding: 1rem 2rem 1rem;
   }
   .card1 {
-    box-shadow: 0px 0px 20px 2px #adc1de;
-    background-color: #9dc4ffed;
+    box-shadow: 0px 0px 20px 2px #8ba6cf;
+    background-color: #3f649ded;
     width: 10rem;
     height: 10rem;
     padding: 3.8rem 3.85rem 4rem;
@@ -38,8 +38,8 @@
     transition: 0.3s;
   }
   .card1:hover {
-    box-shadow: 0px 0px 20px 5px #a3b1c7;
-    background-color: #b0c8eb;
+    box-shadow: 0px 0px 20px 5px #5b79a8;
+    background-color: #1f395f;
     width: 10rem;
     height: 10rem;
     padding: 3.8rem 3.85rem 4rem;
@@ -48,8 +48,8 @@
   }
 
   .card2 {
-    box-shadow: 0px 0px 20px 2px #adc1de;
-    background-color: #9dc4ffed;
+    box-shadow: 0px 0px 20px 2px #8ba6cf;
+    background-color: #3f649ded;
     width: 10rem;
     height: 10rem;
     padding: 3.8rem 3.9rem 4rem;
@@ -57,8 +57,8 @@
     transition: 0.3s;
   }
   .card2:hover {
-    box-shadow: 0px 0px 20px 5px #a3b1c7;
-    background-color: #b0c8eb;
+    box-shadow: 0px 0px 20px 5px #5b79a8;
+    background-color: #1f395f;
     width: 10rem;
     height: 10rem;
     padding: 3.8rem 3.9rem 4rem;
@@ -66,8 +66,8 @@
     transition: 0.3s;
   }
   .card3 {
-    box-shadow: 0px 0px 20px 2px #adc1de;
-    background-color: #9dc4ffed;
+    box-shadow: 0px 0px 20px 2px #8ba6cf;
+    background-color: #3f649ded;
     width: 10rem;
     height: 10rem;
     padding: 4rem 3.85rem 4rem;
@@ -75,8 +75,8 @@
     transition: 0.3s;
   }
   .card3:hover {
-    box-shadow: 0px 0px 20px 5px #a3b1c7;
-    background-color: #b0c8eb;
+    box-shadow: 0px 0px 20px 5px #5b79a8;
+    background-color: #1f395f;
     width: 10rem;
     height: 10rem;
     padding: 4rem 3.85rem 4rem;
@@ -84,8 +84,8 @@
     transition: 0.3s;
   }
   .card4 {
-    box-shadow: 0px 0px 20px 2px #adc1de;
-    background-color: #9dc4ffed;
+    box-shadow: 0px 0px 20px 2px #8ba6cf;
+    background-color: #3f649ded;
     width: 10rem;
     height: 10rem;
     padding: 4rem 3.85rem 3rem;
@@ -93,8 +93,8 @@
     transition: 0.3s;
   }
   .card4:hover {
-    box-shadow: 0px 0px 20px 5px #a3b1c7;
-    background-color: #b0c8eb;
+    box-shadow: 0px 0px 20px 5px #5b79a8;
+    background-color: #1f395f;
     width: 10rem;
     height: 10rem;
     padding: 4rem 3.85rem 3rem;
