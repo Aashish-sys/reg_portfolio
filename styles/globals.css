@@ -1,25 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&family=Rubik+Spray+Paint&family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&family=Rubik+Spray+Paint&family=Ubuntu&display=swap");
 
 @layer utilities {
   body {
     background-color: rgb(255, 253, 225);
   }
   @media screen {
-    
   }
   .navbar {
     padding: 1rem 2rem 1rem;
     height: 5rem;
     background-color: rgb(255, 253, 225);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
+    animation-duration: 0.7s;
+    animation-name: top-down;
   }
   h1 {
     font-weight: 800;
     font-size: xx-large;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
   }
   .bg-cream {
     background-color: rgb(255, 253, 225);
@@ -34,7 +35,7 @@
     height: 10rem;
     padding: 3.8rem 3.85rem 4rem;
     border-radius: 20px;
-    transition: .3s;
+    transition: 0.3s;
   }
   .card1:hover {
     box-shadow: 0px 0px 20px 5px #ded4be;
@@ -43,9 +44,9 @@
     height: 10rem;
     padding: 3.8rem 3.85rem 4rem;
     border-radius: 20px;
-    transition: .3s;
+    transition: 0.3s;
   }
-  
+
   .card2 {
     box-shadow: 0px 0px 20px 2px #ded4be;
     background-color: antiquewhite;
@@ -53,7 +54,7 @@
     height: 10rem;
     padding: 3.8rem 3.9rem 4rem;
     border-radius: 20px;
-    transition: .3s;
+    transition: 0.3s;
   }
   .card2:hover {
     box-shadow: 0px 0px 20px 2px #ded4be;
@@ -62,7 +63,7 @@
     height: 10rem;
     padding: 3.8rem 3.9rem 4rem;
     border-radius: 20px;
-    transition: .3s;
+    transition: 0.3s;
   }
   .card3 {
     box-shadow: 0px 0px 20px 2px #ded4be;
@@ -71,7 +72,7 @@
     height: 10rem;
     padding: 4rem 3.85rem 4rem;
     border-radius: 20px;
-    transition: .3s;
+    transition: 0.3s;
   }
   .card3:hover {
     box-shadow: 0px 0px 20px 2px #ded4be;
@@ -80,7 +81,7 @@
     height: 10rem;
     padding: 4rem 3.85rem 4rem;
     border-radius: 20px;
-    transition: .3s;
+    transition: 0.3s;
   }
   .card4 {
     box-shadow: 0px 0px 20px 2px #ded4be;
@@ -89,7 +90,7 @@
     height: 10rem;
     padding: 4rem 3.85rem 3rem;
     border-radius: 20px;
-    transition: .3s;
+    transition: 0.3s;
   }
   .card4:hover {
     box-shadow: 0px 0px 20px 2px #ded4be;
@@ -98,7 +99,7 @@
     height: 10rem;
     padding: 4rem 3.85rem 3rem;
     border-radius: 20px;
-    transition: .3s;
+    transition: 0.3s;
   }
 
   .btn1 {
@@ -112,5 +113,38 @@
   }
   .btn4 {
     scale: 2.5;
+  }
+
+  h {
+    animation-name: appear;
+    animation-duration: 1s;
+    font-weight: 500;
+  }
+  h2,
+  h3,
+  p {
+    animation-name: appear;
+    animation-duration: 1s;
+  }
+
+  @keyframes top-down {
+    0% {
+      margin-top: -10rem;
+    }
+    30% {
+      margin-top: -4rem;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+
+  @keyframes appear {
+    0% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
+    }
   }
 }
