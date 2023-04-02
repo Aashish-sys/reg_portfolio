@@ -6,7 +6,7 @@ import {TbBrandTelegram} from 'react-icons/tb'
 const Footer = () => {
   return (
     <div className=' items-center justify-center space-x-20 flex pt-10 pb-10'>
-      <Link href='https://twitter.com/chethazz'>
+      <Link href='https://twitter.com/chethaz'>
       <CgTwitter size={30}></CgTwitter>
       </Link>
       <Link href='https://t.me/chethazz'>
