@@ -169,7 +169,7 @@
     background-color: rgb(235, 194, 194);
     animation: moveRobot 50s ease-in-out infinite;
     top: 18%;
-    left: 60%;
+    left: 55%;
   }
   
   @keyframes moveRobot {
