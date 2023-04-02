@@ -2,7 +2,9 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-20 mb-5">
+      <div class="circle"></div>
+      <div className="triangle"></div>
       <div className="max-w-[1100px] justify-between m-auto window">
         <div>
           <h className="text-8xl leading-normal">
