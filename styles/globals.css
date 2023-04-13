@@ -5,14 +5,14 @@
 
 @layer utilities {
   body {
-    background-color: #d1e4ff;
+    background-color: #f7efec;
   }
   @media screen {
   }
   .navbar {
     padding: 1rem 2rem 1rem;
     height: 5rem;
-    background-color: #d1e4ff;
+    background-color: #f7efec;
     font-family: "Ubuntu", sans-serif;
     animation-duration: 0.7s;
     animation-name: top-down;
@@ -23,14 +23,14 @@
     font-family: "Ubuntu", sans-serif;
   }
   .bg-cream {
-    background-color: #d1e4ff;
+    background-color: #f7efec;
   }
   .window {
     padding: 1rem 2rem 1rem;
   }
   .card1 {
-    box-shadow: 0px 0px 20px 2px #8ba6cf;
-    background-color: #3f649ded;
+    box-shadow: 0px 0px 20px 2px #af9991;
+    background-color: #b19a92;
     width: 10rem;
     height: 10rem;
     padding: 3.8rem 3.85rem 4rem;
@@ -38,8 +38,8 @@
     transition: 0.3s;
   }
   .card1:hover {
-    box-shadow: 0px 0px 20px 5px #5b79a8;
-    background-color: #1f395f;
+    box-shadow: 0px 0px 20px 5px #9f918c;
+    background-color: #5b4e4a;
     width: 10rem;
     height: 10rem;
     padding: 3.8rem 3.85rem 4rem;
@@ -48,8 +48,8 @@
   }
 
   .card2 {
-    box-shadow: 0px 0px 20px 2px #8ba6cf;
-    background-color: #3f649ded;
+    box-shadow: 0px 0px 20px 2px #af9991;
+    background-color: #b19a92;
     width: 10rem;
     height: 10rem;
     padding: 3.8rem 3.9rem 4rem;
@@ -57,8 +57,8 @@
     transition: 0.3s;
   }
   .card2:hover {
-    box-shadow: 0px 0px 20px 5px #5b79a8;
-    background-color: #1f395f;
+    box-shadow: 0px 0px 20px 5px #9f918c;
+    background-color: #5b4e4a;
     width: 10rem;
     height: 10rem;
     padding: 3.8rem 3.9rem 4rem;
@@ -66,8 +66,8 @@
     transition: 0.3s;
   }
   .card3 {
-    box-shadow: 0px 0px 20px 2px #8ba6cf;
-    background-color: #3f649ded;
+    box-shadow: 0px 0px 20px 2px #af9991;
+    background-color: #b19a92;
     width: 10rem;
     height: 10rem;
     padding: 4rem 3.85rem 4rem;
@@ -75,8 +75,8 @@
     transition: 0.3s;
   }
   .card3:hover {
-    box-shadow: 0px 0px 20px 5px #5b79a8;
-    background-color: #1f395f;
+    box-shadow: 0px 0px 20px 5px #9f918c;
+    background-color: #5b4e4a;
     width: 10rem;
     height: 10rem;
     padding: 4rem 3.85rem 4rem;
@@ -84,8 +84,8 @@
     transition: 0.3s;
   }
   .card4 {
-    box-shadow: 0px 0px 20px 2px #8ba6cf;
-    background-color: #3f649ded;
+    box-shadow: 0px 0px 20px 2px #af9991;
+    background-color: #b19a92;
     width: 10rem;
     height: 10rem;
     padding: 4rem 3.85rem 3rem;
@@ -93,8 +93,8 @@
     transition: 0.3s;
   }
   .card4:hover {
-    box-shadow: 0px 0px 20px 5px #5b79a8;
-    background-color: #1f395f;
+    box-shadow: 0px 0px 20px 5px #9f918c;
+    background-color: #5b4e4a;
     width: 10rem;
     height: 10rem;
     padding: 4rem 3.85rem 3rem;
